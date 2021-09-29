@@ -1,0 +1,110 @@
+.fifth-block {
+  background-color: var(--v-secondary-base);
+  width: 100%;
+  padding: 50px 10px;
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    &__first {
+      border-radius: 20px;
+      background-image: url('../../../../assets/images/two.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: -130px;
+      max-width: 441px;
+      width: 100%;
+      padding: 0px 0px 46px 0px;
+      &__image {
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 20px;
+        display: grid;
+        gap: 15px;
+        margin: 210px -116px 0 246px;
+        h1 {
+          border-bottom: 3px solid var(--v-secondary-base);
+        }
+      }
+    }
+    &__second {
+      display: grid;
+      gap: 20px;
+      align-content: start;
+      color: #fff;
+      .image {
+        position: relative;
+        img {
+          max-width: 422px;
+          width: 100%;
+          border-radius: 20px;
+          position: relative;
+          z-index: 2;
+        }
+      }
+      .image::after {
+        content: '';
+        width: 90%;
+        border-bottom: solid 200px var(--v-darkBlue-base);
+        position: absolute;
+        left: 0;
+        top: 15%;
+        z-index: 1;
+      }
+      h3 {
+        font-size: 28px;
+        position: relative;
+      }
+      span {
+        font-size: 18px
+      };
+    }
+  }
+}
+@media only screen and (max-width: 1325px) {
+  .fifth-block {
+    .content {
+      &__first {
+        padding: 0px 0px 46px 0px;
+        &__image {
+          margin: 210px -39px 0 190px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  .fifth-block {
+    .content {
+      grid-template-columns:1fr;
+      gap: 20px;
+      justify-items: center;
+      &__first {
+        &__image {
+          margin: 210px -62px 0 212px;
+        }
+      }
+      &__second {
+        justify-items: center;
+        text-align: center;
+        .image::after {
+          content: '';
+          width: 0%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 691px) {
+  .fifth-block {
+    .content {
+      &__first {
+        background-position-x: -231px;
+        padding: 0px 30px 46px 30px;
+        &__image {
+          margin: 210px 0px 0 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.first-layout {
+    background-color: var(--v-secondary-base);
+    width: 100%;
+    color: #fff;
+    &__main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 100%;
+      &__wrapper {
+        min-height: 579px;
+      }
+      &__wrapper:first-child {
+        padding: 80px 90px 30px 80px;
+        p {
+          font-size: 21px;
+        }
+      }
+      &__wrapper:last-child {
+        background-image: url('../../../../assets/images/handsome-man-exercising-gym.jpg');
+        background-repeat: no-repeat;
+        background-size: 950px;
+        background-position-x: -100px;
+        padding: 30px 30px 60px;
+        display: flex;
+        .title {
+          margin: 0 46px 0 -516px;
+          align-self: flex-end;
+          h1 {
+            font-size: 110px;
+            line-height: 120px;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1155px) {
+    .first-layout {
+    &__main {
+      &__wrapper:last-child {
+        justify-content: center;
+        .title {
+          margin: 0;
+          h1 {
+            font-size: 50px;
+            line-height: 50px;
+          }
+        }
+      }
+    }
+  }
+  }
+  @media only screen and (max-width: 834px) {
+    .first-layout {
+    &__main {
+      grid-template-columns: 1fr;
+      &__wrapper:first-child {
+        padding: 20px;
+        text-align: center;
+        min-height: auto;
+      }
+      &__wrapper:last-child {
+        justify-content: center;
+        grid-row: 1;
+        padding: 20px;
+        .title {
+          margin: 0;
+          h1 {
+            font-size: 70px;
+            line-height: 80px;
+          }
+        }
+      }
+    }
+  }
+  }
+  @media only screen and (max-width: 576px) {
+    .first-layout {
+    &__main {
+      &__wrapper {
+        min-height: 531px;
+      }
+      &__wrapper:first-child {
+        padding: 10px;
+      }
+      &__wrapper:last-child {
+        padding: 10px 10px 60px 10px;
+        .title {
+          h1 {
+            font-size: 60px;
+          }
+        }
+      }
+    }
+  }
+  }
+  @media only screen and (max-width: 439px) {
+    .first-layout {
+    &__main {
+      &__wrapper:first-child {
+        padding: 10px 40px 10px 40px;
+        p {
+          font-size: 18px;
+        }
+      }
+      &__wrapper:last-child {
+        padding: 0px 40px;
+        background-position-x: -164px;
+        .title {
+          h1 {
+            font-size: 35px;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+  }

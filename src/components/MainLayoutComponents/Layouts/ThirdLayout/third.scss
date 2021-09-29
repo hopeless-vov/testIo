@@ -1,0 +1,37 @@
+.third-layout {
+  background-image: url('../../../../assets/images/modern-gym-photo-gorgeous-blonde-woman-doing-exercises-her-weekend-time.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 400px 60px 60px 60px;
+    color: #fff;
+    width: 100%;
+    .v-card {
+      backdrop-filter: blur(10px);
+      background:rgba(19, 44, 51, 0.5);
+    }
+    div {
+      color: #fff;
+    }
+    p {
+      font-weight: bold;
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}
+@media only screen and (max-width: 834px) {
+  .third-layout {
+    background-attachment: fixed;
+    .cards {
+      grid-template-columns: 1fr;
+      padding: 200px 40px 60px 40px;
+      justify-content: center;
+      justify-items: center;
+    }
+  }
+}

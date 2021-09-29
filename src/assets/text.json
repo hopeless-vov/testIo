@@ -1,0 +1,76 @@
+{
+  "firstBlock":
+    {
+      "title" :"Спортивный клуб",
+      "description": "Мы стремимся помочь вам превзойти ваши цели в фитнесе. Благодаря нашему крытому бассейну, баскетбольным площадкам, групповым упражнениям и ультрасовременному фитнес-залу вы найдете именно то, что ищете.",
+      "button": "Join Us Now!"
+    },
+  "secondBlock":
+    {
+      "title" :"О спортзале",
+      "secondTitle": "НЬЮ-ЙОРКСКИЙ КЛУБ ЗДОРОВЬЯ И РАКЕТКИ",
+      "description": "Мы изменили каждый аспект нашего членства, чтобы включить в него интегрированные цифровые и внутриклубные предложения, чтобы вы всегда были на высоте - в любое время и в любое время.",
+      "button": "See More!"
+    },
+  "thirdBlock":
+    [
+      {
+        "title": "Our gym",
+        "secondTitle": "О СПОРТЗАЛЕ",
+        "icon": "mdi-dumbbell",
+        "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Our gym",
+        "secondTitle": "ТЕРЯТЬ ВЕС",
+        "icon": "mdi-dumbbell",
+        "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Our gym",
+        "secondTitle": "ТРЕНИРОВКА",
+        "icon": "mdi-dumbbell",
+        "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+        "button": "Learn More"
+      },
+      {
+        "title": "Our gym",
+        "secondTitle": "НАША КОМАНДА",
+        "icon": "mdi-dumbbell",
+        "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+        "button": "Learn More"
+      }
+    ],
+  "fourthBlock": {
+    "title": "Повышение мотивации",
+    "description": "Свяжитесь с нами или посетите нас в одном из наших оздоровительных центров, чтобы сделать лучший шаг в вашей жизни. Откройте для себя преимущества членства, когда вы будете в хорошей форме, оставаться в форме и сосредоточиться на своем здоровье и благополучии."
+  },
+  "infoBlock":
+    {
+      "title" :"Наш спортивный клуб открыт!",
+      "description": "Присоединяйтесь сегодня, заплатив 39 долларов за обработку и 49 долларов за вступление, и остальное время года получите БЕСПЛАТНО!",
+      "button": "Join Us Now!"
+    },
+  "fifthhBlock":
+    {
+      "title" :"Мужские тренировки!",
+      "description": "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+      "come": "ПРИХОДИТЕ НА ТРЕНИРОВКУ С НАМИ",
+      "button": "Join Us Now!"
+    },
+  "sixthBlock":
+    {
+      "title" :"Преимущества членства",
+      "icons": [
+        "mdi-facebook",
+        "mdi-instagram",
+        "mdi-whatsapp",
+        "mdi-twitter"
+      ],
+      "description": "Тренажерный зал, организованный так, чтобы вы могли быстро входить и выходить. Duis aute irure dolor в репрехендерит в сладострастном velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, загорелся in culpa",
+      "come": "Вы узнаете, как легко сохранять мотивацию и оставаться в хорошей форме",
+      "button": "Join Us Now!"
+    }
+}

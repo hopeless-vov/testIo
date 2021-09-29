@@ -1,0 +1,54 @@
+.contact-us {
+  background-image: url('../../../../assets/images/gym.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  .block-with-form {
+    max-width: 587px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 75px 0;
+    &__form {
+      padding: 60px;
+      width: 100%;
+      border-radius: 20px;
+      background-color: #fff;
+      display: grid;
+      justify-content: center;
+      &__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        .item {
+          display: grid;
+          .v-text-field {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .col {
+    padding: 0px 0px 0px 10px!important;
+  }
+  .row {
+    margin: 0px!important;
+  }
+  .v-text-field {
+    padding: 0px!important;
+    margin: 0px!important;
+  }
+}
+@media only screen and (max-width: 834px) {
+  .contact-us {
+    .block-with-form {
+      padding: 35px;
+      &__form {
+        padding: 30px;
+        &__items {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
+}

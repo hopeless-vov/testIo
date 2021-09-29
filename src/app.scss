@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+  overflow: visible !important;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0); 
+}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: var(--v-darkBlue-base);
+  //-webkit-box-shadow: inset 0 0 6px rgba(195, 255, 0, 0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: var(--v-darkBlue-base);
+}
+
+@media (min-width: 1200px) {
+  .global-setting {
+    width: 1140px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .global-setting {
+    width: 940px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .global-setting {
+    width: 720px;
+    margin: 0px auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .global-setting {
+    width: 540px;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .global-setting {
+    width: 340px;
+    margin: 0px auto;
+  }
+}
